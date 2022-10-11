@@ -1,0 +1,114 @@
+a {
+    font-size: 90%;
+    
+}
+
+li {
+    margin-left: 10%;
+    
+}
+#textp1{
+    padding-right: 3%;
+}
+#nos,#ser{
+    visibility: hidden;
+}
+#photo1{
+    width: 540px;
+    height:170px;
+  
+}
+#bg1{
+    background-image: url(/Plan\ de\ travail\ 1\ \(1\).png);
+}
+#bg2{
+
+    width: 170px;
+    height: 60px;
+
+}
+#secca{
+    min-height: 250px;
+    border-radius: 29px;
+    border-width: 2px;
+    border-color:#9caeb7;
+    border-style: solid;
+    max-height: 20px;
+}
+#secca>a{
+    color: #B3BEC5;
+}
+#secca:hover>a{
+    color: white;
+}
+#secca,#secca>.lead{
+    background-color: #E8E8E8;
+    color: #B3BEC5;
+}
+#secca:hover,#secca:hover>.lead:hover{
+    background-color: #9caeb7;
+    color: white;
+}
+
+@media screen and (max-width:1245px){
+    
+}
+@media screen and (max-width:768px){
+    #photo1{
+        
+    }
+    
+    #textp1{
+        padding-left:10%;
+    }
+    #tot{
+        visibility: hidden;
+    }
+    #nos,#ser{
+        visibility: visible;
+    }
+    #cont1{
+        visibility: hidden;
+    }
+    #cont2{
+        visibility: visible;
+    }
+    #bg1{
+        background-image: url(/mob.jpg);
+    }
+}
+@media screen and (max-width:480px){
+    .lead{
+        padding-top: 30px;
+    }
+    #secca{
+
+        max-width: 300px;
+        max-height: 200px;
+    }
+    #button1{
+        max-width: 250px;
+    }
+    #textp1{
+        padding-left:10%;
+        padding-top: 10%;
+        
+    }
+    #nos,#ser{
+        visibility:visible;
+        margin-top: -30%;
+    }
+    #ser{
+        visibility:visible;
+        margin-top: -3%;
+    }
+    #tot{
+        visibility: hidden;
+    }
+    #photo1{
+        width: calc(100vh - 500px);
+        height:    calc(100vh - 700px);
+        margin-top:  100px;
+    }
+
+}
